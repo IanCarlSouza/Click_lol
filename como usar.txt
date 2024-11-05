@@ -1,0 +1,17 @@
+1 - Baixe a pasta "click_exe", para uso correto, não remova a imagem "aceitar.png" da pasta;
+2 - Extrair o arquivo comprimido;
+3 - Execute o programa;
+4 - Se divirta não perdendo mais suas filas enquanto vai ao banheiro.
+_____________________________________________
+	OBSERVAÇÕES!
+_____________________________________________
+
+O programa precisa ser executado toda vez que for encontrar uma nova partida.
+
+O programa funciona com base nos pixeis da imagem, ou seja, ele funcionara com qualquer imagem
+que estiver na mesma pasta do executavel.
+
+Deixe a imagem e o executavel na mesma pasta, para que o programa possa detectar a imagem.
+
+Caso seu jogo esteja em outra linguagem, forneça um print exatamente das palavras do botão quando
+a partida é encontrada, pode usar a imagem da pasta como referência, apenas salve-a como "aceitar.png".  
