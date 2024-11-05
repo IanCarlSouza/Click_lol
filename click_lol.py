@@ -12,9 +12,9 @@ def verificar_tela(tempo_limite):
             print('Tempo excedido')
             return False
         try:
-            button_pos = pyautogui.locateOnScreen("aceitar.png", confidence=0.7)
-            if button_pos is not None:
-                click_botao(button_pos.left, button_pos.top)
+            botao_pos = pyautogui.locateOnScreen("aceitar.png", confidence=0.7)
+            if botao_pos is not None:
+                click_botao(botao_pos.left, botao_pos.top)
             return True
         except pyautogui.ImageNotFoundException:
             pass  
